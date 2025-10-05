@@ -1,0 +1,63 @@
+.comments {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none
+}
+
+.header {
+    background: #dae2e8 none repeat scroll 0 0;
+    padding: 4px 4px 4px 6px;
+    margin-bottom: 10px
+}
+
+.header-text {
+    padding: 2px 3px 1px;
+    line-height: 100%;
+    color: #45688e;
+    font-weight: 700
+}
+
+.avatar img {
+    width: 50px;
+    float: left;
+    margin-right: 10px
+}
+
+.live-foto {
+    margin-top: 7px;
+    margin-bottom: -10px;
+    display: block
+}
+
+.comment, .comment-load {
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #dae1e8;
+    padding-bottom: 15px
+}
+
+.comment:last-child {
+    border-bottom: 0 none
+}
+
+.comment-name {
+    color: #2b587a;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.comment-text {
+    margin-left: 60px;
+    text-align: justify
+}
+
+.comment-text p {
+    margin-top: 0
+}
+
+.comment-date {
+    margin-left: 60px;
+    color: #999
+}

@@ -1,0 +1,782 @@
+<?php include_once 'head_code.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <?php include_once 'header_code.php' ?>
+  <script src="files/js/jquery.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>
+    <?php echo $PRODUCT_NAME; ?>
+  </title>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link href="files/css/header.css" rel="stylesheet" />
+  <link href="files/css/doors.css" rel="stylesheet" />
+  <link href="files/css/form.css" rel="stylesheet" />
+  <link href="files/css/comments.css" rel="stylesheet" />
+  <link type="text/css" href="files/css/all.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <script>
+    function dtime(daysBefore) {
+      let d = new Date(new Date() - 24 * 3600 * 1000 * daysBefore);
+      let separator = '.';
+      let month = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
+      document.write(d.getDate() + separator + month[d.getMonth()] + separator + d.getFullYear());
+    }
+
+    function year() {
+      let d = new Date();
+      document.write(d.getFullYear());
+    }
+  </script>
+  <meta property="og:type" content="article" />
+
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+</head>
+
+<body>
+  <header>
+    <div class="header__inner">
+      <a
+        class="logo_link"
+        href="#doors_block"
+        style="border: 1px solid transparent !important"></a>
+    </div>
+
+    <a href="#doors_block" class="burger-menu">
+      <div class="burger"><span></span><span></span><span></span></div>
+    </a>
+  </header>
+  <main>
+    <div class="container">
+      <div class="article">
+        <h1 style="margin-top: 0; padding-top: 30px">
+          You are currently feeling <span style="color: red">joint pain</span> – tomorrow you
+          might not be able to get out of bed!
+          <span style="color: green">Restore ease of movement in 14 days.</span>
+        </h1>
+
+        <div class="date">
+          <script>
+            dtime(0);
+          </script>
+        </div>
+        <p></p>
+        <div class="quote grey row">
+          <img alt="img" src="files/img/content-2.png" />
+          <div>
+            <!-- <p><b>Dr. Adebayo Ogundimu</b></p> -->
+            <p>
+              Today we are talking about an issue that affects almost every family in Nigeria. The
+              latest medical data is shocking — seven out of ten people over the age of 50 live
+              with constant joint pain. And what is even more alarming is that one in three is
+              already on the dangerous edge, where the loss of mobility is only a matter of time.
+            </p>
+            <!-- <p>Work experience - more than 27 years.</p> -->
+          </div>
+        </div>
+        <p>
+          - Many people tend to attribute discomfort in the knees, back, or elbows to age. But
+          doctors warn: this is not just fatigue — it is the first sign of cartilage tissue
+          destruction.
+
+          <b>
+            If you don’t intervene in time, the process becomes irreversible and leads to serious
+            diseases.</b>
+        </p>
+        <ul>
+          <li><b>chronic arthritis,</b></li>
+          <li><b>joint deformity, </b></li>
+          <li><b>bone weakening (osteoporosis),</b></li>
+          <li><b>painful arthrosis.</b></li>
+          <li><b>complete loss of mobility.</b></li>
+        </ul>
+
+        <div class="img">
+          <img alt="img" src="files/img/content-3.png" />
+          <span><b>Severe joint damage (advanced stage)</b></span>
+        </div>
+        <p>
+          In the early stages, this disease may be almost invisible, but mild pain and joint
+          stiffness may be the first "bell". These symptoms should not be ignored!
+        </p>
+        <!-- <div class="quote blue">
+            <p class="red">
+              "Joint pain is not just ordinary discomfort. It can cause cartilage damage, joint
+              deformity, loss of mobility, and in 35-40% of cases - permanent disability."
+            </p>
+          </div> -->
+
+        <div class="quote grey row" style="background-color: antiquewhite">
+          <img alt="img" src="files/img/content-4+.png" />
+          <div>
+            <!-- <p><b>Dr. Adebayo Ogundimu</b></p> -->
+            <p>
+              In the most advanced case - disability and constant dependence on others for
+              assistance, even when going to the bathroom, trying to eat, or drinking water.
+            </p>
+            <!-- <p>Work experience - more than 27 years.</p> -->
+          </div>
+        </div>
+
+        <p>
+          <b>SCIENTISTS WORLDWIDE HAVE LONG CONCLUDED THAT JOINT PAIN CAN CAUSE A NUMBER OF
+            SERIOUS PROBLEMS IN THE HUMAN BODY.</b>
+        </p>
+        <p>
+          Furthermore, with chronic joint pain,
+          <b>loss of mobility applies in most cases</b>, which means that every person suffering
+          from chronic joint pain is at risk of losing quality of life and the ability to move
+          normally for a long time, or even for life.
+        </p>
+        <div class="quote blue">
+          <p>
+            "Doctor: <br />
+            — Joints deteriorate quietly and imperceptibly. Day after day. If you already feel
+            pain, hear crunching, or can barely straighten your knees in the morning to get out of
+            bed — it means inflammation and tissue damage have already begun. And the longer you
+            delay, the harder it becomes to restore joint mobility. "
+          </p>
+        </div>
+        <!-- <p>
+            The problem is that most people suffering from this disease don't even go to specialists
+            to start therapy. Some don't consider this a dangerous problem, others think it's just
+            ordinary pain. So,
+            <b>patients always ignore the problem</b>. And if they decide to seek help, they usually
+            do so only when it's too late and permanent joint damage has already begun.
+          </p> -->
+        <div class="img">
+          <div class="img__rel">
+            <img src="files/img/content-5.png" alt="" />
+            <img
+              class="img__abs"
+              src="<?php echo $PRODUCT_IMAGE_PATH ?>"
+              alt=""
+              style="margin: 0" />
+          </div>
+        </div>
+        <!-- <p>
+            It should be noted that
+            <b>chronic joint pain can become a debilitating disease</b> because it often develops
+            into a more dangerous problem - permanent joint damage. And this causes disability in
+            most cases. So, if the disease remains uncontrolled, lack of timely therapy can lead to
+            permanent disability within about two years from the onset of joint damage.
+          </p> -->
+        <div class="quote blue">
+          <p>
+            "— It is important to start treatment right now. And we know how to help you. There is
+            a solution that in Nigeria is called a breakthrough in joint restoration —
+            <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>."
+          </p>
+        </div>
+        <!-- <p>
+            We are talking about the release in 2025 of a <b>revolutionary product</b> that helps
+            restore proper joint function, helps eliminate inflammation and even fights chronic
+            joint pain, and can also significantly improve mobility and reduce pain. The product is
+            called <a><strong><a><strong><?php echo $PRODUCT_NAME; ?></strong></a></strong></a
+            >. This product has an affordable price, despite the fact that scientists from Israel
+            and France are involved in its production.
+          </p>
+          <p>
+            Nigerian Institute of Rheumatology Research, the most important orthopedic research
+            center in West Africa, has experimented with the new generation of <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>, which was
+            developed for chronic joint pain therapy. Based on research data, the following
+            conclusions were made:
+          </p> -->
+
+        <p><b>This is an innovative remedy based on natural ingredients:</b></p>
+        <div>
+          <ul>
+            <li>
+              <b>Glucosamine Sulfate</b><br />
+              Relieve pain and inflammation after the very first applications, giving you the
+              ability to move without fear.
+            </li>
+            <li>
+              <b>Chondroitin Sulfate</b><br />
+              Restore damaged cartilage tissue and slow down its destruction, so your joints serve
+              you for many years.
+            </li>
+            <li>
+              <b>Turmeric Extract (Curcuma longa)</b><br />
+              Improve blood circulation in the affected areas, helping to nourish and regenerate
+              tissues faster.
+            </li>
+            <li>
+              <b>MSM (Methylsulfonylmethane)</b><br />
+              Increase the elasticity and mobility of the joints, making each step lighter and
+              easier.
+            </li>
+            <li>
+              <b>Boswellia Serrata</b><br />
+              Be safe for long-term use — without aggressive chemical ingredients and without harm
+              to the body.
+            </li>
+          </ul>
+        </div>
+        <hr />
+
+        <p><b></b></p>
+        <div class="img">
+          <div class="img__rel2">
+            <img alt="img" src="files/img/content-6-1.png" />
+            <img class="img__abs2" src="<?php echo $PRODUCT_IMAGE_PATH ?>" alt="" />
+          </div>
+          <!-- <span><b>Joint replacement surgery</b></span> -->
+        </div>
+        <div class="quote row">
+          <div>
+            <p><b>Expert comments:</b></p>
+            <p>
+              The main difference between {_offer_value:product_name} and regular painkillers is
+              that it works not only on the symptom but also on the root cause of the pain — by
+              restoring joint tissue. After clinical trials, 95% of patients felt significant
+              relief within just 14 days, and within a month, they returned to a fully active
+              life. But numbers are one thing. Here is a story that speaks for itself.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote blue row">
+          <div>
+            <p>
+              Fatima, 62 years old: — I couldn’t climb to the second floor without stopping. The
+              pain in my knees was so bad that every step was a struggle. I thought I would spend
+              the rest of my life in a chair. But just two weeks with <?php echo $PRODUCT_NAME; ?> — and the pain
+              was gone. After a month, I was walking around the market again, going to the mosque,
+              and playing ball with my grandchildren without fear that my legs would give out.
+            </p>
+          </div>
+          <img alt="img" src="files/img/content-7.png" />
+        </div>
+
+        <div>
+          <p>
+            Until 2025, there has never been an effective, moreover affordable way that can help
+            fight even chronic joint pain. And this can cause truly terrifying consequences for
+            sufferers: 45% of the adult population struggles with this disease and more
+            frighteningly 30% of them are still young.
+          </p>
+          <p>
+            "<a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+            is a new word in chronic joint pain therapy. The effectiveness has been proven in
+            practice throughout African, Asian and European countries. More and more specialists recommend it to patients with
+            chronic joint pain problems."
+          </p>
+        </div>
+        <a class="button wide" href="#doors_block">Buy
+          <strong><?php echo $PRODUCT_NAME; ?></strong>
+          with discount</a>
+
+        <!-- <div class="quote blue">
+            <p class="red">
+              "Joint pain is not just ordinary discomfort. It can cause cartilage damage, joint
+              deformity, loss of mobility, and in 35-40% of cases - permanent disability."
+            </p>
+          </div> -->
+        <!-- <p><b><a><strong><?php echo $PRODUCT_NAME; ?></strong></a> capsules contain:</b></p>
+          <div>
+            <ul>
+              <li>
+                <b>Glucosamine Sulfate</b><br />
+                The first natural ingredient that is effective in treating joint pain without
+                surgery is glucosamine. Glucosamine has benefits for joint health, such as helping
+                cartilage regeneration and reducing inflammation.
+              </li>
+              <li>
+                <b>Chondroitin Sulfate</b><br />
+                Taking chondroitin sulfate may be one way to address joint conditions, especially to
+                reduce symptoms associated with osteoarthritis. A study found that people who
+                regularly consume chondroitin sulfate supplements experience reduced joint pain.
+              </li>
+              <li>
+                <b>Turmeric Extract (Curcuma longa)</b><br />
+                For people suffering from joint inflammation. Specifically, researchers have found
+                that it has the ability to reduce some potential complications that can occur in
+                inflamed joints, including pain, stiffness, and swelling. Contains powerful
+                antioxidant and anti-inflammatory substances.
+              </li>
+              <li>
+                <b>MSM (Methylsulfonylmethane)</b><br />
+                MSM is a natural remedy for joint pain and inflammation, obtained from organic
+                sulfur sources. This substance slows the development of joint damage and helps
+                repair cartilage tissue.
+              </li>
+              <li>
+                <b>Boswellia Serrata</b><br />
+                This substance is characterized by high boswellic acid content, a natural
+                anti-inflammatory compound. Improves joint mobility, reduces inflammation and pain
+                in osteoarthritis and rheumatoid arthritis.
+              </li>
+            </ul>
+          </div>
+          <div class="quote blue">
+            <p>
+              "<a><strong><?php echo $PRODUCT_NAME; ?></strong></a> helps solve problems and also has beneficial effects on the entire
+              musculoskeletal system. In other words, after undergoing therapy joints can start
+              functioning as if they were 25 years old. That's why I recommend this product to
+              everyone. Even for those who don't suffer from chronic joint pain as a very effective
+              product for preventing disease and improving mobility."
+            </p>
+          </div>
+          <p>
+            This product has also been tested in Europe at the Rheumatology Center in Paris.
+            Clinical trials have proven our results. Currently <a><strong><?php echo $PRODUCT_NAME; ?></strong></a> can be ordered through its
+            official website. We have tried several times to sell this product in pharmacies, but
+            those pharmacies wanted to sell it at much higher prices to get bigger profits.
+          </p>
+          <p>
+            It should be understood that the scientists who developed this product are not involved
+            in commercial activities. Our goal is not to make money. We just want to help as many
+            people as possible. But unfortunately the amount of <a><strong><?php echo $PRODUCT_NAME; ?></strong></a> for each location is
+            limited. So our team of scientists decided to launch promotions in different countries
+            one by one. In each one <a><strong><?php echo $PRODUCT_NAME; ?></strong></a> will be available at a discount for one week. Usually
+            it's already sold out during this period so it's better to buy immediately while
+            possible in your area.
+          </p> -->
+        <p>
+          <!-- As part of the current promotion,
+            <span class="red"><a><strong><?php echo $PRODUCT_NAME; ?></strong></a> can be purchased with a 50% discount</span>.
+            <b>Thanks to this, anyone in West Africa can get this product!</b> To get
+            <a><a><strong><?php echo $PRODUCT_NAME; ?></strong></a></a>
+            at a discounted price, according to the social support program, click on one of the
+            doors.
+          </p> -->
+        </p>
+
+        <div class="frame">
+          <h1 style="color: red; text-transform: uppercase; text-align: center; margin-top: 0px">
+            IMPORTANT!
+          </h1>
+          <p>
+            This product has been clinically tested and the results surprised orthopedic experts
+            and specialists. Almost 98% of patients recovered and the disease did not return. In
+            other cases, symptoms disappeared and the condition improved significantly.
+          </p>
+
+          <ul>
+            <h3>
+              What you need to do to get
+              <?php echo $PRODUCT_NAME ?>
+              at a low price:
+            </h3>
+
+            <li class="mb-1">You must be a resident of Nigeria. We don't ship abroad.</li>
+
+            <li>
+              <?php echo $PRODUCT_NAME ?>
+              will reach you in 3-4 days, you pay when you receive it.
+            </li>
+            <li>Submit order form through the official order form (available below)</li>
+          </ul>
+
+          <p>
+            The official order form is a guarantee of distributor price and protection from
+            resellers. This is necessary to deal with retailers who try to buy
+            <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+            in bulk and resell it with their own margins.
+          </p>
+
+          <h1 style="color: red; text-transform: uppercase; text-align: center; margin-top: 0px">
+            And finaly!
+          </h1>
+          <p></p>
+
+          <p>
+            Since you are our reader, you can order
+            <?php echo $PRODUCT_NAME ?>
+            with an
+            <span
+              style="
+                  font-size: 18px;
+                  color: red;
+                  background: yellow;
+                  padding: 2px 5px;
+                  border-radius: 5px;
+                ">additional discount!</span>Take part in the <a style="text-decoration: none" href="#doors_block">draw </a> and
+            try your luck! The maximum discount is 50%! .
+          </p>
+
+          <div style="margin: 0 auto; text-align: center">
+            <h2 style="text-align: center; color: red">
+              <?php echo $PRODUCT_NAME ?>
+              is being sold out very quickly! <br />At the moment the remaining packs:
+            </h2>
+          </div>
+          <h3 class="left_count" style="cursor: pointer">
+            <b class="prod_left_val">485</b>
+          </h3>
+
+          <p class="toform">
+            Attention: promotion time is from
+            <b>
+              <script>
+                dtime(6);
+              </script>
+            </b>
+            to
+            <b>
+              <script>
+                dtime(0);
+              </script>
+            </b>
+            (inclusive)! After that, the product can only be purchased at market price
+            <b><?php echo $PRODUCT_PRICE; ?>
+              <?php echo $CURRENCY_LABEL; ?></b>
+            per package.
+          </p>
+          <h3 style="text-align: justify; color: red">
+            Remember: every week of delay is another step toward irreversible changes. Take care
+            of your joints today so you can live without pain tomorrow!
+          </h3>
+        </div>
+      </div>
+      <div id="doors_block">
+        <div class="door__wrapper">
+          <h2 class="door__title">
+            👇 Click any door and try to find the door with 50% discount 👇
+          </h2>
+          <div class="door__container">
+            <div class="box">
+              <div class="hi">
+                <p id="door__sales2" class="door__sales">10%</p>
+              </div>
+              <div id="door__2" class="door"></div>
+            </div>
+            <div class="box">
+              <div class="hi">
+                <p id="door__sales1" class="door__sales">50%</p>
+              </div>
+              <div id="door__1" class="door"></div>
+            </div>
+            <div class="box">
+              <div class="hi">
+                <p id="door__sales3" class="door__sales">25%</p>
+              </div>
+              <div id="door__3" class="door"></div>
+            </div>
+          </div>
+        </div>
+        <div class="spin-result-wrapper" style="display: none">
+          <div class="pop-up-window">
+            <p class="pop-up-text">You're lucky!</p>
+            <span class="pop-up-button">OK</span>
+          </div>
+        </div>
+      </div>
+      <div class="order_block" style="display: none">
+        <div class="prod_img_wrapper">
+          <img src="<?php echo $PRODUCT_IMAGE_PATH ?>" width="300" class="prod_img" />
+          <div class="prices">
+            <span class="discount">You got the best price!</span> <br />
+            <s><span class="old"><?php echo $PRODUCT_PRICE_OLD ?>
+                <?php echo $CURRENCY_LABEL; ?></span></s>
+            <b class="new">
+              <?php echo $PRODUCT_PRICE ?>
+              <?php echo $CURRENCY_LABEL; ?></b>
+          </div>
+        </div>
+        <h3>
+          You have time to order at a discounted price,<br />until the offer will be transferred
+          to another reader!<br />
+          Discount will be inactive after:<br />
+          <span class="time_remains" id="min">10</span> :
+          <span class="time_remains" id="sec">00</span>
+        </h3>
+        <form
+          class="main-order-form order_form"
+          action="<?php echo $SEND_SCRIPT_URL; ?>"
+          method="POST">
+          <?php include_once "form_attributes.php"; ?>
+          <label for="name" class="data_label">Enter your name:</label>
+          <input
+            class="wheel_input"
+            type="text"
+            name="name"
+            required=""
+            id="name"
+            placeholder="Name" />
+          <label for="phone" class="data_label">Enter phone number:</label>
+          <input
+            class="wheel_input"
+            type="tel"
+            id="phone"
+            name="phone"
+            required=""
+            placeholder="For example +234 12345678" />
+          <button class="main-link" type="submit" name="submit">
+            Buy
+            <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+            with 50% discount!
+          </button>
+        </form>
+      </div>
+      <h2 class="time_remains_title">
+        This offer is valid until (inclusive):
+        <span class="time_remains">
+          <script>
+            dtime(0);
+          </script>
+        </span>
+      </h2>
+      <div class="comments">
+        <div class="header">
+          <div class="header-text">
+            <span class="comment-count lt46">194 comments</span>
+          </div>
+        </div>
+        <div class="comment-load comment-id-1">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/1.webp" />
+            </picture>
+          </div>
+          <div class="comment-name lt47">Aisha, 57 years old, Lagos</div>
+          <div class="comment-text">
+            <p>
+              "I didn't believe that some ointment could help. Knee pain had tortured me for more
+              than 7 years, every morning I got out of bed feeling like I was made of wood. After
+              the first week of use, I noticed that I could go down the stairs without tears. And
+              after a month, I was already walking with my grandchildren in the park! This is not
+              just a cream - it's a return ticket to youth. A chance to become free and forget
+              about endless pharmacy purchases."
+            </p>
+            <p></p>
+          </div>
+          <div class="comment-date lt49">12 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/2.webp" />
+            </picture>
+          </div>
+          <div class="comment-name lt50">John, 63 years old, Abuja</div>
+          <div class="comment-text">
+            <p>
+              "I had arthritis, and the doctor told me to prepare for surgery. But my son
+              convinced me to try {_offer_value:product_name}. After just 10 days, my knees
+              stopped swelling, and the pain almost disappeared. Now it's been 2 months - I'm
+              working in the garden again, can bend down, lift a heavy bucket of water. Even the
+              doctor was surprised by my progress!"
+            </p>
+            <p>
+              Thanks,
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>!
+            </p>
+            <img alt="img" src="files/img/content-8.png" width="200" />
+          </div>
+          <div class="comment-date lt53">17 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/3.webp" />
+            </picture>
+          </div>
+          <div class="comment-name lt54">Fatima, 62 years old, Kano</div>
+          <div class="comment-text">
+            <p>
+              "I thought my time was over. I couldn't sleep at night from pain, and during the day
+              I couldn't walk even 50 meters. With this cream everything changed: after two weeks
+              I felt relief, and after a month I completely forgot about the pain. Now I can go to
+              the market again and cook for my family without fear that I won't be able to stand
+              up."
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+              and everything is going much better, this is a reliable product.
+              <br />
+            </p>
+          </div>
+          <div class="comment-date lt56">19 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/4.webp" />
+            </picture>
+          </div>
+          <div class="comment-name lt57">Musa, 54 years old, Port Harcourt</div>
+          <div class="comment-text">
+            <p>
+              "My shoulders and elbows were constantly aching, I couldn't work normally. I used
+              {_offer_value:product_name} morning and evening - after a week I felt that my
+              mobility had returned. Now I can raise my arms without pain, even play football with
+              friends!"
+            </p>
+          </div>
+          <div class="comment-date lt59">20 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/5.webp" />
+            </picture>
+          </div>
+          <div class="comment-name lt60">Grace, 60 years old, Enugu</div>
+          <div class="comment-text">
+            <p>
+              "Back pain got me to the point where I almost stopped leaving the house. After a
+              course of {_offer_value:product_name} I felt like a different woman. I stopped
+              taking handfuls of painkillers. I can sit, stand and even dance without pain!"
+            </p>
+          </div>
+          <div class="comment-date lt62">24 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/6.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Tunde Bakare</div>
+          <div class="comment-text">
+            <p>
+              I never thought this could happen to me, and I would be given this terrible
+              diagnosis. As a young person, I could hardly give up sports activities and
+              self-confidence. But I didn't despair and tried to do something about it. I didn't
+              spare money on medications. I tried many of them, but in the end only
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+              helped! I didn't even think it would work so fast and efficiently.
+            </p>
+          </div>
+          <div class="comment-date">27 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/7.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Olumide Adeyemi</div>
+          <div class="comment-text">
+            <p>
+              I can guarantee the effectiveness of this product because I have tried it myself. I
+              constantly took anti-inflammatory drugs, went to massage therapists, tried all
+              methods that were prescribed to me. But after a few months, chronic joint pain
+              always returned. It's been 4 months since I took
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+              and I've forgotten that I ever suffered from joint pain.
+            </p>
+          </div>
+          <div class="comment-date">30 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/8.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Chioma</div>
+          <div class="comment-text">
+            <p>
+              Guys, this is terrible. I've been living with joint pain for five years! This
+              disease relapses 5 times a year! At first it seemed like the situation always
+              improved, but then all symptoms returned. Specialists didn't know what to prescribe
+              other than anti-inflammatory drugs. But this only gave temporary relief, and then
+              everything started again! I'm tired of medications, I think my body can't take any
+              more of it. I hope <<a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+                can help me.
+            </p>
+          </div>
+          <div class="comment-date">34 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/9.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Segun</div>
+          <div class="comment-text">
+            <p>
+              For years, I have been treating my joint pain with various different methods. I did
+              special exercises, it also helped, but after some time everything returned, and I
+              had to repeat everything from the beginning. After undergoing therapy with
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>, the disease didn't relapse anymore, and I recovered quite quickly.
+            </p>
+          </div>
+          <div class="comment-date">37 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/10.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Ngozi</div>
+          <div class="comment-text">
+            <p>
+              My husband also had this problem, we had been trying to fight it for a long time,
+              but without success. At that point, a specialist recommended
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>
+              to us. My husband brought him a bottle of whiskey as a thank you:)
+              <br />
+            </p>
+          </div>
+          <div class="comment-date">49 minutes ago</div>
+        </div>
+        <div class="comment">
+          <div class="avatar">
+            <picture>
+              <img alt="img" src="files/img/11.webp" />
+            </picture>
+          </div>
+          <div class="comment-name">Biodun</div>
+          <div class="comment-text">
+            <p>
+              I consulted with my consultant about
+              <a><strong><?php echo $PRODUCT_NAME; ?></strong></a>, he said that he didn't believe in its effectiveness, but would be interested to
+              see the results of the therapy. Well, my results were very good, I recovered
+              completely, and now my specialist is grumbling unhappily...
+            </p>
+          </div>
+          <div class="comment-date">53 minutes ago</div>
+        </div>
+
+        <div class="img">
+          <img src="<?php echo $PRODUCT_IMAGE_PATH ?>" width="170" />
+        </div>
+        <a class="button" href="#doors_block">ORDER</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer__content">
+      <div class="footer__left">
+        <p>© 2024 All Rights Reserved</p>
+      </div>
+      <div class="footer__right">
+        <a href="#">Privacy Policy and Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="files/js/doors.js"></script>
+
+  <script>
+    const counter = {
+      subtract: function(num) {
+        const element = document.querySelector('.prod_left_val');
+        let qty = parseInt(element.textContent);
+        let qtynew = qty - num;
+        qtynew = qtynew < 7 ? 7 : qtynew;
+        element.textContent = qtynew;
+      },
+    };
+
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        counter.subtract(2);
+        setInterval(function() {
+          counter.subtract(Math.floor(Math.random() * (4 - 2)) + 2);
+        }, (Math.floor(Math.random() * (25 - 20)) + 20) * 1000);
+      }, 2000);
+    });
+  </script>
+</body>
+
+</html>

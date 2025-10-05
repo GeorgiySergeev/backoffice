@@ -1,0 +1,427 @@
+html,
+body,
+div,
+button,
+h1,
+h2,
+h3,
+h4,
+form,
+button,
+input,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+html,
+body,
+input {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  background: url('../img/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 13px;
+}
+
+main .container {
+  padding-bottom: 40px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+main a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1697ce;
+}
+
+main a:hover {
+  color: #b0493b;
+}
+
+.red {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 15px 0;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+  margin-top: 0;
+}
+
+p,
+ul,
+span {
+  color: #000;
+  text-align: justify;
+  line-height: 31px;
+  font-size: 18px;
+}
+h1 span {
+  font-size: 34px;
+}
+.header__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-image: url('../img/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115px;
+}
+
+.logo_link {
+  display: inline-block !important;
+
+  width: 100%;
+  height: 115px;
+}
+
+main .date {
+  color: #6c6e7e;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.burger {
+  display: none;
+}
+
+main .img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+main .img span {
+  display: block;
+  text-align: center;
+}
+
+.quote {
+  margin-bottom: 15px;
+}
+
+.quote.grey {
+  background: #e2e2e2;
+}
+
+.quote.blue {
+  background: #edfaff;
+}
+
+.quote.blue p {
+  padding: 35px 90px;
+  font-style: italic;
+  /* font-weight: 700; */
+}
+
+.quote.grey p {
+  font-style: italic;
+  text-align: left;
+}
+
+.quote.row p {
+  font-size: 24px;
+}
+
+.quote.row {
+  padding: 10px;
+}
+
+.quote.row img {
+  display: block;
+  width: 325px;
+}
+
+.quote.grey.row img {
+  margin-right: 20px;
+}
+
+.quote.blue.row img {
+  margin-left: 20px;
+}
+
+.product {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 20px;
+  padding: 10px;
+  background: #bff5d3;
+  color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.frame p {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.frame {
+  padding: 20px;
+  border: 2px dashed red;
+  background: #ffeca6;
+}
+
+.frame ul {
+  margin-bottom: 0;
+}
+
+.button {
+  border-radius: 30px;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 60px;
+  background-color: #d72012;
+  animation: 1s pulse infinite alternate ease-in-out;
+}
+
+.button.wide {
+  max-width: 600px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #b80000;
+  text-decoration: none;
+}
+
+@media all and (max-width: 1000px) {
+  header .container,
+  main .container {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .header__inner {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 136px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  h1 span {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p,
+  ul,
+  span {
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .quote.row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote.grey p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .quote.grey.row img,
+  .quote.blue.row img {
+    margin: 0;
+  }
+
+  .quote.blue p {
+    padding: 15px;
+  }
+
+  .button.wide {
+    font-size: 18px;
+  }
+
+  main {
+    padding-top: 0;
+  }
+}
+
+.cpu {
+  padding: 10px 0;
+  text-align: center;
+}
+.cpu img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+.cpu a {
+  display: inline-block;
+  margin: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+.img__rel {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.img__abs {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  margin: 0;
+  width: 15%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img__rel2 {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.img__abs2 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  margin: 0;
+  width: 15%;
+  height: auto;
+  object-fit: cover;
+}
+@media all and (max-width: 480px) {
+  .logo_link {
+    display: none !important;
+  }
+  .burger {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    display: block;
+    background: #008751;
+    pointer-events: all;
+    padding: 6px;
+  }
+  .burger span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #000;
+    margin: 5px auto;
+  }
+}
+.cta_title {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #d72012;
+}
+
+.left_count {
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  background: red;
+  margin: 12px auto;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000,
+    -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000,
+    1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -1px -1px 0 #000000,
+    1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  font-size: 130% !important;
+  border-radius: 5px;
+}
+
+.left_count .prod_left_val {
+  font-size: 52px !important;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1084px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #008751;
+}
+
+.footer__left p {
+  margin: 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__right a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
